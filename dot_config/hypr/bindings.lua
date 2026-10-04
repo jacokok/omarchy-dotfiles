@@ -2,7 +2,9 @@ hl.unbind("SUPER + SHIFT + F")
 o.bind("SUPER + SHIFT + F", "File manager", "strata")
 
 hl.unbind("SUPER + SHIFT + RETURN")
-o.bind("SUPER + SHIFT + RETURN", "Browser", "omarchy-launch-or-focus $(omarchy default browser)")
+-- o.bind("SUPER + SHIFT + RETURN", "Browser", "omarchy-launch-or-focus browser")
+-- o.bind("SUPER + SHIFT + RETURN", "Browser", { omarchy = "browser" })
+o.bind("SUPER + SHIFT + RETURN", "Browser", "omarchy-launch-or-focus browser 'omarchy launch browser'")
 
 o.bind("SUPER + SHIFT + E", "Zed", "omarchy-launch-or-focus zed")
 
